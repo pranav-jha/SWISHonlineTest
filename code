@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // your code goes here
+    float x,p;
+    int count=0;
+    cin>>x>>p;
+    while(x>=1){
+        count++;;
+        x=x-(p/100)*x;
+    }
+    cout<<count<<endl;
+    return 0;
+}
